@@ -1,4 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Agu+Display&family=Bitter:ital,wght@0,100..900;1,100..900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Geist+Mono:wght@100..900&family=Goldman:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 *{
     margin: 0;
     box-sizing: border-box;
+}
+
+
+
+.text1{
+    font-family: "fraunces", serif;
+    font-size: 24px;
+    font-weight: 300;
+    color: hsla(0, 0%, 18%, 1);
+    cursor: pointer;
+    text-decoration: none;
+}
+.searcht{
+    font-family: "fraunces", serif;
+    font-size: 18px;
+    font-weight: 300;
+    color: hsla(0, 0%, 18%, 1);
+}
+.bar{
+    padding: 8px 12px 8px 12px;
+    display: flex;
+    flex-direction: row;
+    gap: 128px;
+    align-items: center;
+    background-color: transparent;
+    border: solid 1px hsla(103, 18%, 50%, 1);
+    width: fit-content;
+}
+.search{
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    align-items: center;
+    cursor: pointer;
+}
+.navigation{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
 }
