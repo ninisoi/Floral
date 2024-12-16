@@ -4,7 +4,7 @@
     margin: 0;
     box-sizing: border-box;
 }
-.body{
+body{
     background-color: hsla(40, 47%, 96%, 1);
 }
 
