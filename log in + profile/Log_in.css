@@ -1,4 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Agu+Display&family=Bitter:ital,wght@0,100..900;1,100..900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Geist+Mono:wght@100..900&family=Goldman:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 *{
     margin: 0;
     box-sizing: border-box;
+}
+body{
+    background-color: hsla(40, 47%, 96%, 1);
+}
+.text1{
+    font-family: "fraunces", serif;
+    font-size: 24px;
+    font-weight: 300;
+    color: hsla(0, 0%, 18%, 1);
+    cursor: pointer;
+    text-decoration: none;
+}
+.searcht{
+    font-family: "fraunces", serif;
+    font-size: 18px;
+    font-weight: 300;
+    color: hsla(0, 0%, 18%, 1);
+
+}
+.bar{
+    padding: 8px 12px 8px 12px;
+    display: flex;
+    flex-direction: row;
+    gap: 128px;
+    align-items: center;
+    background-color: transparent;
+    border: solid 1px hsla(103, 18%, 50%, 1);
+    width: fit-content;
+}
+.search{
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    align-items: center;
+    cursor: pointer;
+}
+.navigation{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+}
+.header{
+    padding: 0 80px 0 80px;
+    background-color: hsla(102, 18%, 59%, 1);
+    height: 120px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.title1{
+    font-family: 'fraunces';
+    font-size: 48px;
+    font-weight: 400;
+    display: flex;
+}
+.text2{
+    font-family: 'fraunces';
+    font-size: 22px;
+    font-weight: 400;
+    text-decoration: none;
+}
+span{
+    font-family: 'fraunces';
+    font-size: 22px;
+    font-weight: 400;
+    color: rgb(203, 151, 39);
+    text-decoration: none;
+    cursor: pointer;
+}
+.title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-items: center;
+    gap: 8px;
+    margin-top: 80px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 450px;
+    font-family: 'fraunces';
+    font-size: 18px;
+    font-weight: 400;
+}
+.form2{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 450px;
+    font-family: 'fraunces';
+    font-size: 18px;
+    font-weight: 400;
+    border: none;
+}
+input{
+   font-family: 'fraunces';
+   font-size: 16px;
+   font-weight: 400;
+   color: hsla(0, 0%, 51%, 1); 
+   padding: 10px 12px 10px 12px;
+   border: solid 1px hsla(0, 0%, 58%, 1);
+   border-radius: 4px;
+}
+.frame5{
+    font-family: 'fraunces';
+    font-size: 16px;
+    font-weight: 400;
+    color: hsla(0, 0%, 51%, 1); 
+    padding: 10px 12px 10px 12px;
+    border: solid 1px hsla(0, 0%, 58%, 1);
+    border-radius: 4px;
+ }
+ .place2{
+    border: none;
+ }
+.label{
+    font-family: 'fraunces';
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.frame4{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: fit-content;
+}
+.frame5{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 16px 0 0;
+    width: 450px;
+    border: solid 1px hsla(0, 0%, 58%, 1);
+    background-color: white;
+}
+.boxes{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+.underline{
+    color:hsla(41, 81%, 56%, 1);;
+}
+button{
+    font-family: 'fraunces';
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+    padding: 10px 12px 10px 12px;
+    width: fit-content;
+    border: none;
+    background-color: hsla(41, 81%, 56%, 1);
+    cursor: pointer;
+    border-radius: 2px;
+}
+.component1{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 48px 80px 48px 80px;
+    background-color: hsla(102, 18%, 59%, 1);
+    margin-top: 140px;
+    align-items: center;
+}
+.button2{
+    font-family: 'fraunces';
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+    background-color: hsla(40, 98%, 49%, 1);
+    padding: 12px 16px 12px 16px;
+    border: none;
+    width: fit-content;
+    cursor: pointer;
+}
+.container5{
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+.text10{
+    font-family: 'fraunces';
+    font-size: 16px;
+    font-weight: 300;
+    color: hsla(0, 0%, 10%, 1);
+    cursor: pointer;
+    text-decoration: none;
+}
+.text11{
+    font-family: 'fraunces';
+    font-size: 16px;
+    font-weight: 300;
+    color: hsla(0, 0%, 10%, 1);
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.country{
+    width: 355px;
+    padding: 12px;
+    background-color: transparent;
+    border: solid 1px hsla(0, 0%, 0%, 1);
+    font-family: 'fraunces';
+    font-size: 18px;
+    font-weight: 400;
+}
+.frame11{
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+.text9{
+    font-family: 'fraunces';
+    font-size: 24px;
+    font-weight: 400;
+    color: hsla(0, 0%, 10%, 1);
+}
+.container4{
+    display: flex;
+    flex-direction: row;
+    gap: 18px;
+    width: fit-content;
+}
+.container3{
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+}
+.page{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
 }
