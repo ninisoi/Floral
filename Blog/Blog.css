@@ -7,6 +7,8 @@
 body{
     background-color: hsla(40, 47%, 96%, 1);
 }
+
+
 .text1{
     font-family: "fraunces", serif;
     font-size: 24px;
@@ -15,12 +17,19 @@ body{
     cursor: pointer;
     text-decoration: none;
 }
+.text1:hover{
+    font-family: "fraunces", serif;
+    font-size: 24px;
+    font-weight: 300;
+    color: hsla(0, 0%, 34%, 1);
+    cursor: pointer;
+    text-decoration: none;
+}
 .searcht{
     font-family: "fraunces", serif;
     font-size: 18px;
     font-weight: 300;
     color: hsla(0, 0%, 18%, 1);
-
 }
 .bar{
     padding: 8px 12px 8px 12px;
@@ -32,12 +41,25 @@ body{
     border: solid 1px hsla(103, 18%, 50%, 1);
     width: fit-content;
 }
+.bar:hover{
+    padding: 8px 12px 8px 12px;
+    display: flex;
+    flex-direction: row;
+    gap: 128px;
+    align-items: center;
+    background-color: transparent;
+    border: solid 1px hsla(103, 18%, 40%, 1);
+    width: fit-content;
+}
 .search{
     display: flex;
     flex-direction: row;
     gap: 12px;
     align-items: center;
     cursor: pointer;
+}
+.cart{
+    border: none;
 }
 .navigation{
     display: flex;
@@ -164,36 +186,62 @@ body{
 .links{
     text-decoration: none;
 }
+.text2{
+    font-family: 'fraunces';
+    font-size: 24px;
+    font-weight: 400;
+    padding: 4px 16px 4px 16px;
+    border: solid 1px black;
+    width: fit-content;
+    cursor: pointer;
+}
+.text3{
+    font-family: 'fraunces';
+    font-size: 24px;
+    font-weight: 400;
+    padding: 4px 16px 4px 16px;
+    cursor: pointer;
+}
+.Pagination{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+}
+.page{
+   display: flex;
+   flex-direction: column;
+   gap: 60px; 
+}
 .footer{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     padding: 48px 80px 48px 80px;
     background-color: hsla(102, 18%, 59%, 1);
-    margin-top: 80px;
+    margin-top: 60px;
     align-items: center;
 }
-.button2{
+.title7{
     font-family: 'fraunces';
-    font-size: 20px;
+    font-size: 24px;
     font-weight: 400;
-    color: white;
-    background-color: hsla(40, 98%, 49%, 1);
-    padding: 12px 16px 12px 16px;
-    border: none;
-    width: fit-content;
-    cursor: pointer;
-}
-.container5{
-    display: flex;
-    flex-direction: column;
-    gap: 28px;
+    color: hsla(0, 0%, 10%, 1);
 }
 .text10{
     font-family: 'fraunces';
     font-size: 16px;
     font-weight: 300;
     color: hsla(0, 0%, 10%, 1);
+    cursor: pointer;
+    text-decoration: none;
+}
+.text10:hover{
+    font-family: 'fraunces';
+    font-size: 16px;
+    font-weight: 300;
+    color: hsla(0, 0%, 34%, 1);
     cursor: pointer;
     text-decoration: none;
 }
@@ -213,19 +261,10 @@ body{
     flex-direction: column;
     justify-content: space-between;
 }
-.country{
-    width: 355px;
-    padding: 12px;
-    background-color: transparent;
-    border: solid 1px hsla(0, 0%, 0%, 1);
-    font-family: 'fraunces';
-    font-size: 18px;
-    font-weight: 400;
-}
-.frame11{
+.container3{
     display: flex;
-    flex-direction: column;
-    gap: 22px;
+    flex-direction: row;
+    gap: 60px;
 }
 .text9{
     font-family: 'fraunces';
@@ -239,13 +278,17 @@ body{
     gap: 18px;
     width: fit-content;
 }
-.container3{
-    display: flex;
-    flex-direction: row;
-    gap: 60px;
+.country{
+    width: 355px;
+    padding: 12px;
+    background-color: transparent;
+    border: solid 1px hsla(0, 0%, 0%, 1);
+    font-family: 'fraunces';
+    font-size: 18px;
+    font-weight: 400;
 }
-.page{
+.frame11{
     display: flex;
     flex-direction: column;
-    gap: 60px;
+    gap: 22px;
 }

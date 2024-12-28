@@ -1,0 +1,333 @@
+@import url('https://fonts.googleapis.com/css2?family=Agu+Display&family=Bitter:ital,wght@0,100..900;1,100..900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Geist+Mono:wght@100..900&family=Goldman:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsla(40, 47%, 96%, 1);
+}
+
+
+.text1{
+    font-family: "fraunces", serif;
+    font-size: 24px;
+    font-weight: 300;
+    color: hsla(0, 0%, 18%, 1);
+    cursor: pointer;
+    text-decoration: none;
+}
+.text1:hover{
+    font-family: "fraunces", serif;
+    font-size: 24px;
+    font-weight: 300;
+    color: hsla(0, 0%, 34%, 1);
+    cursor: pointer;
+    text-decoration: none;
+}
+.searcht{
+    font-family: "fraunces", serif;
+    font-size: 18px;
+    font-weight: 300;
+    color: hsla(0, 0%, 18%, 1);
+}
+.bar{
+    padding: 8px 12px 8px 12px;
+    display: flex;
+    flex-direction: row;
+    gap: 128px;
+    align-items: center;
+    background-color: transparent;
+    border: solid 1px hsla(103, 18%, 50%, 1);
+    width: fit-content;
+}
+.bar:hover{
+    padding: 8px 12px 8px 12px;
+    display: flex;
+    flex-direction: row;
+    gap: 128px;
+    align-items: center;
+    background-color: transparent;
+    border: solid 1px hsla(103, 18%, 40%, 1);
+    width: fit-content;
+}
+.search{
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    align-items: center;
+    cursor: pointer;
+}
+.cart{
+    border: none;
+}
+.navigation{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+}
+.header{
+    padding: 0 80px 0 80px;
+    background-color: hsla(102, 18%, 59%, 1);
+    height: 120px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.title{
+    font-family: 'fraunces';
+    font-size: 64px;
+    font-weight: 600;
+}
+.text2{
+    font-family: 'fraunces';
+    font-size: 24px;
+    font-weight: 300;
+}
+.aboutUs{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.about_us{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    padding: 0 80px 0 80px;
+}
+.image1{
+    width: 50%;
+    object-fit: cover;
+}
+.title2{
+    font-family: 'fraunces';
+    font-size: 40px;
+    font-weight: 400;
+}
+.text3{
+    font-family: 'fraunces';
+    font-size: 18px;
+    font-weight: 400;
+}
+.ourstory{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 50%;
+}
+.image2{
+    width: 50%;
+    height: 400px;
+    object-fit: cover;
+}
+.our_story{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    padding: 0 80px 0 80px;
+}
+.text5{
+    font-family: 'fraunces';
+    font-size: 52px;
+    font-weight: 600;
+}
+.text6{
+    font-family: 'fraunces';
+    font-size: 18px;
+    font-weight: 400;
+    color: hsla(0, 0%, 18%, 1);
+}
+.texts{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+.box{
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+.icon{
+    width: 54px;
+    height: 54px;
+}
+@media (max-width:1440px) {
+    .boxes{
+        display: flex !important;
+        justify-content: space-between !important;
+        gap: 0 !important;
+    }
+    .text5{
+        font-size: 34px;
+    }
+}
+.boxes{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 160px;
+}
+.text4{
+    font-family: 'fraunces';
+    font-size: 18px;
+    font-weight: 100;
+}
+.title3{
+    font-family: 'fraunces';
+    font-size: 52px;
+    font-weight: 600;
+}
+.healthy{
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    width: 700px;
+}
+.frame1{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+}
+.banner{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    padding: 30px 80px 30px 80px;
+    background-color: hsla(102, 18%, 59%, 1);
+}
+.image3{
+    width: 30%;
+    height: 500px;
+    object-fit: cover;
+}
+.text7{
+    font-family: 'fraunces';
+    font-size: 18px;
+    font-weight: 400;
+}
+.title4{
+    font-family: 'fraunces';
+    font-size: 40px;
+    font-weight: 400;
+}
+.frame2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 28px;
+}
+.image4{
+    object-fit: cover;
+    height: 390px;
+    width: 100%;
+}
+.ourvision{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+.section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 18px;
+    padding: 0 80px 0 80px;
+}
+.page{
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 48px 80px 48px 80px;
+    background-color: hsla(102, 18%, 59%, 1);
+    margin-top: 60px;
+    align-items: center;
+}
+.title7{
+    font-family: 'fraunces';
+    font-size: 24px;
+    font-weight: 400;
+    color: hsla(0, 0%, 10%, 1);
+}
+.text10{
+    font-family: 'fraunces';
+    font-size: 16px;
+    font-weight: 300;
+    color: hsla(0, 0%, 10%, 1);
+    cursor: pointer;
+    text-decoration: none;
+}
+.text10:hover{
+    font-family: 'fraunces';
+    font-size: 16px;
+    font-weight: 300;
+    color: hsla(0, 0%, 34%, 1);
+    cursor: pointer;
+    text-decoration: none;
+}
+.text11{
+    font-family: 'fraunces';
+    font-size: 16px;
+    font-weight: 300;
+    color: hsla(0, 0%, 10%, 1);
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.container3{
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+}
+.text9{
+    font-family: 'fraunces';
+    font-size: 24px;
+    font-weight: 400;
+    color: hsla(0, 0%, 10%, 1);
+}
+.container4{
+    display: flex;
+    flex-direction: row;
+    gap: 18px;
+    width: fit-content;
+}
+.country{
+    width: 355px;
+    padding: 12px;
+    background-color: transparent;
+    border: solid 1px hsla(0, 0%, 0%, 1);
+    font-family: 'fraunces';
+    font-size: 18px;
+    font-weight: 400;
+}
+.frame11{
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
